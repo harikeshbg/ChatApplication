@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity
             {
                 Intent intent=new Intent(getApplicationContext(),ChatRoomActivity.class);
                 intent.putExtra("friendname",((TextView)view).getText().toString());
-                intent.putExtra("username",name);
+                intent.putExtra("myname",name);
                 startActivity(intent);
             }
         });
